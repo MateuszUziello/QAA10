@@ -1,5 +1,5 @@
 import Notiflix from 'notiflix';
-import lodashDebounce from 'https://cdn.jsdelivr.net/npm/lodash.debounce@4.0.8/+esm';
+import lodashDebounce from 'lodash.debounce';
 import { fetchCountries } from './fetchCountries.js';
 
 const searchInput = document.querySelector('#search-box');
