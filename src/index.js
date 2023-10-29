@@ -1,4 +1,4 @@
-import Notiflix from 'https://cdn.jsdelivr.net/npm/notiflix@3.2.6/+esm';
+import Notiflix from 'notiflix';
 import lodashDebounce from 'https://cdn.jsdelivr.net/npm/lodash.debounce@4.0.8/+esm';
 import { fetchCountries } from './fetchCountries.js';
 
